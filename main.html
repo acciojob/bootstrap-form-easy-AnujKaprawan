@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<div class="container">
+    <h2><center>Internship form</center></h2>
+    
+    <form>
+        <div class="mb-3 mt-3">
+      <div class="form-group row">
+        <div class="col-xs-4">
+          <label for="ex1">First Name</label>
+          <input class="form-control" id="ex1" type="text">
+        </div>
+        <div class="col-xs-4">
+          <label for="ex2">Last name</label>
+          <input class="form-control" id="ex2" type="text">
+        </div>
+        <div class="col-xs-4">
+          <label for="ex3">Email-Address</label>
+          <input type="email" class="form-control" id="email" placeholder="xyz@abc.com" name="">
+          
+        </div>
+      </div>
+      
+      <div class="form-group row">
+        <div class="col-xs-6">
+          <label for="ex1">College</label>
+          <input class="form-control" id="ex1" type="text">
+        </div>
+        <div class="col-xs-3">
+          <label for="ex2">Graduation year</label>
+          <input type="email" class="form-control" id="email" placeholder="" name="">
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>         
+        </div>
+        <div class="col-xs-3">
+          <label for="ex3">Roll no</label>
+          <input class="form-control" id="ex3" type="text">
+        </div>
+      </div>
+    </form>
+    <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Agree terms and conditions</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Form</button>
+  </div >
+  
+    <h2><center>Internship form</center></h2>
+      <div class="form-group row">
+        <div class="col-xs-4">
+          <label for="ex1">First Name</label>
+         
+          <input class="form-control" id="ex1" type="text">
+          
+      <div class="invalid-feedback">First name required</div>
+        </div>
+        <div class="col-xs-4">
+          <label for="ex2">Last name</label>
+          <input class="form-control" id="ex2" type="text">
+          <div class="invalid-feedback">Last name required</div>
+        </div>
+        <div class="col-xs-4">
+          <label for="ex3">Email-Address</label>
+          <input type="email" class="form-control" id="email" placeholder="xyz@abc.com" name="">
+          <div class="invalid-feedback">Email required</div>
+        </div>
+      </div>
+        <div class="form-group row">
+        <div class="col-xs-6">
+          <label for="ex1">College</label>
+          <input class="form-control" id="ex1" type="text">
+          <div class="invalid-feedback">Please provide valid college</div>
+        </div>
+        <div class="col-xs-3">
+          <label for="ex2">Graduation year</label>
+          <input class="form-control" id="ex2" type="text">
+          <div class="invalid-feedback">Please select a valid Graduation year</div> 
+        </div>
+        <div class="col-xs-3">
+          <label for="ex3">Roll no</label>
+          <input class="form-control" id="ex3" type="text">
+          <div class="invalid-feedback">Please provide a valid Roll No</div>
+       </div>
+      </div>
+    </form>
+    </form>
+    </form>
+    <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Agree terms and conditions</label>
+        <p>you must agree before submitting</p>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Form</button>  
+    </div>
+    
+    </form>
 </body>
-
 </html>
+
+
+        
+
+
+
+
+
+
+
+
+
